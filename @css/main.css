@@ -4,7 +4,7 @@
 }
 a{text-decoration: none;line-height: normal;}
 :root{
-    --color1: #504f4f;
+    --color1: #555f70;
     --color1_rgb: 255, 255, 255;
     --font1: "Lemon", sans-serif;
     --font2: "Montserrat", sans-serif;
@@ -126,7 +126,7 @@ html, body{
     width: 60px;
     margin-left: 10px;
     border: 2px solid var(--color1);
-    background-image: url(../%40img/ava.jpg);
+    background-image: url(../%40img/ava.png);
     background-position: center;
     background-size: cover;
     -webkit-box-shadow: var(--container__shadow) rgba(var(--color1_rgb), .3);
@@ -450,8 +450,9 @@ align-items: flex-start;
     .max{
         font-size: .8rem;    
     }
+    #walletconnect_connect {display: none}
     .wapper{width:  95%}
-    #browser_connect{display: none}
+    /*#browser_connect{display: none} */
     .connect__container{
         width: 80%;
     }
